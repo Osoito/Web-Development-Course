@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Feedbacks</title>
+  </head>
+  <h1>How would you rate this experience?</h1>
+  <body>
+    <form method="POST" action="/feedbacks/1">
+      <input type="submit" value="Poor" /><br/>
+    </form>
+    <form method="POST" action="/feedbacks/2">
+      <input type="submit" value="Fair" /><br/>
+    </form>
+    <form method="POST" action="/feedbacks/3">
+      <input type="submit" value="Good" /><br/>
+    </form>
+    <form method="POST" action="/feedbacks/4">
+      <input type="submit" value="Very good" /><br/>
+    </form>
+    <form method="POST" action="/feedbacks/5">
+      <input type="submit" value="Excellent" /><br/>
+    </form>
+  </body>
+</html>
